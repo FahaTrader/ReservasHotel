@@ -1,0 +1,259 @@
+html, body{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    font-family: "Ruda", sans-serif;
+}
+
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: #000 8px dotted;
+    border-bottom: none;
+    width: 20%;
+}
+
+.container-fluid{
+    padding: 0 10%;
+}
+
+/*---- Section Button -----*/
+.btn{
+    background-color: orange;
+    display: block;
+    box-shadow: none;
+    align-items: end;
+    text-align: center;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: rgb(255, 136, 0);
+}
+
+.btn-1{
+    background-color: transparent;
+    color: orange;
+    padding: 1% 5%;
+}
+
+.btn-2{
+    background-color: transparent;
+    color: orange;
+    padding: 1% 5%;
+}
+
+/*----- Navbar Section -----*/
+.navbar-brand{
+    font-family: "Mea Culpa";
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+}
+
+/*----- Development Section -----*/
+#development{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(/static/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.card{
+    border: 0;
+    box-shadow: inset;
+    
+}
+
+.form-control{
+    background-color: #e6e0e0;
+    border: none;
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#development .btn{
+    margin-top: 21%;
+}
+
+/*----- Empashis Section -----*/
+#emphasis{
+    width: 100%;
+}
+
+/*----- Card-1 Section -----*/
+.emphasis-title{
+    font-size: 1.8rem;
+    margin: 5% 0;
+    font-weight: bold;
+}
+
+.position-absolute{
+    right: 2.4%;
+    top: 42.9%;
+    background-color: orange;
+    border: none;
+    padding: 1% 2%;
+}
+
+.button-emphasis{
+    display: flex;
+    justify-content: center;
+    margin: 4% 0;
+}
+
+/*----- Card-2 Section -----*/
+.emphasis-title2{
+    font-size: 1.8rem;
+    margin: 2.5% 0;
+    font-weight: bold;
+}
+
+.card-2{
+    right: 2.4%;
+    top: 36.4%;
+    background-color: rgb(247, 44, 111);
+    border: none;
+    padding: 1% 2%;
+}
+
+/*----- Differential Section -----*/
+#differential{
+    text-align: center;
+    width: 100%;
+}
+.differential-title{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.carousel-title{
+    margin-bottom: 4%;
+    font-size: 1.8rem;
+}
+
+.icon{
+    margin-bottom: 4%;
+}
+
+/*----- Assessments Section -----*/
+.Assessments-title{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline  red;
+}
+
+/*----- Footer Section -----*/
+#footer{
+    background-color: #e7e5e5;
+}
+
+.footer-title{
+    margin-top: 10%;
+}
+
+.footer-p{
+    color: #999;
+}
+
+.nav-footer{
+    color: #999;
+}
+
+.icon-footer{
+    margin-right: 3%;
+}
+
+@media (max-width: 576px){
+    .container-fluid{
+        padding: 0 0.8rem;
+    }
+
+    /*----- Button Section -----*/
+    .btn{
+        background-color: orange;
+        margin-top: 4%;
+        display: block;
+    }
+
+    .btn-1{
+        background-color: transparent;
+        color: orange;
+        padding: 2%
+    }
+    
+    .btn-2{
+        background-color: transparent;
+        color: orange;
+    }
+
+    /*----- Navbar Section -----*/
+    .collapse{
+        display: block;
+        justify-content: none;
+    }
+    
+    /*----- Development Section -----*/
+    .card{
+        display: block;
+    }
+
+    .card-img-top{
+        width: 100%;
+        height: 100%;
+    }
+
+    #development .btn{
+        margin-top: 8%;
+    }
+
+    /*----- Emphais Section -----*/
+    .emphasis-title{
+        margin: 8%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    /*----- Card-1 Section -----*/
+    .position-absolute{
+        right: 2.4%;
+        top: 1.8%;
+        background-color: orange;
+        border: none;
+        padding: 1% 2%;
+    }
+
+    .button-emphasis{
+        display: block;
+        justify-content: center;
+    }
+
+    /*----- Card-2 Section -----*/
+    .emphasis-title2{
+        font-size: 1.5rem;
+        margin-top: 15%;
+        font-weight: bold;
+    }
+
+    .card-2{
+        right: 2.4%;
+        top: 35.6%;
+        background-color: rgb(247, 44, 111);
+        border: none;
+        padding: 1% 2%;
+    }
+}

@@ -1,0 +1,132 @@
+html, body{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    font-family: "Ruda", sans-serif;
+}
+
+.container-fluid{
+    padding: 0 10%;
+}
+
+/*----- Button Section -----*/
+.btn{
+    background-color: orange;
+    display: block;
+    box-shadow: none;
+    align-items: end;
+    text-align: center;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: rgb(255, 136, 0);
+}
+
+.button-reservations{
+    margin: 5% 1.8%;
+    justify-content: end;
+    display: flex;
+}
+
+.form-control{
+    background-color: #e6e0e0;
+    border: none;
+    color: #999;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card{
+    box-shadow: inset;
+    border: none;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.alert{
+    padding: 2%;
+    border-radius: 0;
+}
+
+.fa-sharp{
+    margin-bottom: 8%;
+}
+
+/*----- Navgation Bar -----*/
+#title{
+    background-color: #e7e5e5;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    font-family: "Mea Culpa";
+    font-weight: bold;
+}
+
+/*----- Reservations Section -----*/
+#reservation{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5%;
+}
+.line{
+    margin-left: 43%;
+    width: 150px;
+    border: 1px solid orange;
+}
+
+
+/*----- Footer Section -----*/
+#footer{
+    background-color: #e7e5e5;
+}
+
+.footer-title{
+    margin-top: 10%;
+}
+
+.footer-p{
+    color: #999;
+}
+
+.nav-footer{
+    color: #999;
+    font-weight: bold;
+}
+
+.icon-footer{
+    margin-right: 3%;
+}
+
+
+@media (max-width: 576px){
+    .container-fluid{
+        padding: 0 1rem;
+    }
+
+    .navbar{
+        padding: 1.5% 0;
+    }
+
+    .line{
+        margin-left: 30%;
+        width: 150px;
+        border: 1px solid orange;
+    }
+
+    .button-reservations{
+        margin: 5% 4.3%;
+        display: block;
+    }
+}
