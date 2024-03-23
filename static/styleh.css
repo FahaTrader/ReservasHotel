@@ -108,6 +108,14 @@ hr{
     padding: 1% 2%;
 }
 
+.card-all{
+    right: 2.4%;
+    top: 42.9%;
+    background-color: rgb(247, 44, 111);
+    border: none;
+    padding: 1% 2%;
+}
+
 .button-emphasis{
     display: flex;
     justify-content: center;
