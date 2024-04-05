@@ -109,16 +109,16 @@ a:hover{
 }
 
 .position-absolute{
-    right: 2.4%;
-    top: 42.9%;
+    right: 2.2%;
+    top: 46%;
     background-color: orange;
     border: none;
     padding: 1% 2%;
 }
 
 .card-all{
-    right: 2.4%;
-    top: 42.9%;
+    right: 2.2%;
+    top: 46%;
     background-color: rgb(247, 44, 111);
     border: none;
     padding: 1% 2%;
@@ -138,8 +138,8 @@ a:hover{
 }
 
 .card-2{
-    right: 2.4%;
-    top: 36.4%;
+    right: 2.2%;
+    top: 39.2%;
     background-color: rgb(247, 44, 111);
     border: none;
     padding: 1% 2%;
